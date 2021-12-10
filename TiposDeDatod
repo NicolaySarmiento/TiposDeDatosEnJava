@@ -1,0 +1,44 @@
+package TiposDeDatos;
+
+public class Main {
+
+    public static void main(String[] args) {
+        //Tipos de datos en java:
+        System.out.println("Tipos de datos en java:");
+
+        //Tipo byte:
+        byte numByte = 127;
+        System.out.println("Tipo byte = " + numByte);
+
+        //Tipo short:
+        short numShort = 32_767;
+        System.out.println("Tipo short = " + numShort);
+
+        //Tipo int o entero:
+        int numInt = 15;
+        System.out.println("Tipo int o entero = " + numInt);
+
+        //Tipo long o largo:
+        long numLong = 456982135456964L;
+        System.out.println("Tipo long o largo = " + numLong);
+
+        //Tipo float o decimal flotante:
+        float numFloat = 25.20f;
+        System.out.println("Tipo float o decimal flotante = " + numFloat);
+
+        //Tipo double mas corto que long:
+        double numDouble = 45_632_897d;
+        System.out.println("Tipo double mas corto que long = " + numDouble);
+
+        //Tipo boolean, falso o verdadero:
+        boolean valorBoleano = false;
+        System.out.println("Tipo boolean, falso o verdadero = " + valorBoleano);
+
+        //Tipo String o cadena de texto:
+        String cadenaDeTexto = "<Gracias Alan por tus clases>";
+        System.out.println("Tipo String o cadena de texto = " + cadenaDeTexto);
+        
+        
+
+    }
+}
